@@ -14,7 +14,7 @@ load_dotenv()
 
 # Access the API key
 api_key = os.getenv("API_KEY")
-client = genai.Client(api_key='AIzaSyCTo1TW07iPGOANd4oa0YgTpOZgCT1TY1M')  # Replace with your actual API key
+client = genai.Client(api_key=api_key)  # Replace with your actual API key
 
 # Step 2: Set up Streamlit UI
 st.title("Floral Mehndi Design Generator")
