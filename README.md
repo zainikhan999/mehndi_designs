@@ -34,7 +34,7 @@ This Streamlit application allows users to generate beautiful Mehndi (Henna) des
    git clone https://github.com/yourusername/mehndi_designs.git
    cd mehndi-generator
 ![image](https://github.com/user-attachments/assets/4f9affa6-5dac-45db-b566-eebf662ae73e)
-![Desktop-screenshot-04-07-2025_04_41_PM](https://github.com/user-attachments/assets/b19940d4-5af3-49f0-ac4c-d35fcd7f61be)
+![image](https://github.com/user-attachments/assets/f0fad538-09e4-405c-a74c-4c3f22334ab8)
 
 
 
