@@ -53,7 +53,7 @@ This Streamlit application allows users to generate beautiful Mehndi (Henna) des
       git branch -M main
       git remote add origin https://github.com/zainikhan999/goodevening.git
       git push -u origin main
-- docker run -p 8501:8501 zainabkhan999/mehndi-design:v1
+-  docker run -p 8501:8501 zainabkhan999/mehndi-design:v1
 ![image](https://github.com/user-attachments/assets/82a17039-8ffe-4895-b4cf-58e5a1fb9b66)
 
 
