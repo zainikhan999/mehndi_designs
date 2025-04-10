@@ -2,7 +2,7 @@
 # 🌸 Floral Mehndi Design Generator
 GoodBye to searching long web pages to select Hina designs , welocme Floral Mehndi Design Generator
 This Streamlit application allows users to generate beautiful Mehndi (Henna) designs tailored to their preferences using Google Gemini's image generation model.
-**Check Here : https://mehndidesigns.streamlit.app/**
+
 ---
 
 ## 🚀 Features
@@ -37,4 +37,9 @@ This Streamlit application allows users to generate beautiful Mehndi (Henna) des
 ![image](https://github.com/user-attachments/assets/f0fad538-09e4-405c-a74c-4c3f22334ab8)
 
 
+---
+## 🐳 Docker Commands Details:
+-  docker build -t mehndi-generator : For building the image 
+-  docker tag mehndi-generator zainabkhan999/mehndi-generator:v1   Tag your image with your Docker Hub username and the desired repository name
+-  docker push zainabkhan999/mehndi-generator:v1 :Push the image to Docker Hub
 
