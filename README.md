@@ -40,7 +40,7 @@ This Streamlit application allows users to generate beautiful Mehndi (Henna) des
 ---
 ## 🐳 Docker Commands Details:
 -  docker build -t mehndi-generator : For building the image
-  ![image](https://github.com/user-attachments/assets/104359ba-d58e-44a1-9e8b-9d2e1563f6a1)
+  ![image](https://github.com/user-attachments/assets/11dca29b-3aaf-4206-8b06-e943bca624f3)
 -  docker tag mehndi-generator zainabkhan999/mehndi-generator:v1   Tag your image with your Docker Hub username and the desired repository name
 -  docker push zainabkhan999/mehndi-generator:v1 :Push the image to Docker Hub
   ![image](https://github.com/user-attachments/assets/7cd9c436-b225-4806-b3fa-cd66f5bfd253)
