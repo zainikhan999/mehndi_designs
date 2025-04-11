@@ -121,7 +121,7 @@ if st.button("Generate"):
             f"The hand must clearly resemble this description: {hand_description}. "
            "Show only a single hand with a white background — no home or parlor backgrounds. "
             "Ensure the palm AND the back of the hand are visible in the design (you may use a 3D-style view or split-view layout). "
-            f"Generate a {mehndi_type.split(' - ')[0]} style Mehndi design suitable for a {occasion}, "
+            f"Generate a  {mehndi_type} style Mehndi design suitable for a {occasion}, "
              f"with a {complexity} complexity level. "
             "Do NOT generate more than one hand or any other object in the image.")
 
