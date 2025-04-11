@@ -76,9 +76,9 @@ Push the image to Docker Hub
 - Stop a running container.
   ``` bash
   docker stop <container>
-```
+  ```
 - Remove a stopped container.
- ```bash
+  ```bash
   docker rm <container>
   ```
 - Display detailed information about a container.
