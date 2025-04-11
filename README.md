@@ -97,52 +97,52 @@ docker logs <container>
 ``` bash
 docker stats
 ```
-Run a command inside a running container (e.g., bash shell).
+- Run a command inside a running container (e.g., bash shell).
 ``` bash
 docker exec -it <container> <command>
 ```
-Attach to a running container's terminal.
+- Attach to a running container's terminal.
 ```bash
 docker attach <container>
 
 ```
-Create a new image from a container's current state.
+- Create a new image from a container's current state.
 ``` bash
 docker commit <container> <image-name>
 ```
-Copy files/folders between container and host.
+- Copy files/folders between container and host.
 ``` bash
 docker cp <container>:<path> <host-path>
 ```
-Show processes running inside a container.
+- Show processes running inside a container.
 ``` bash
 docker top <container>
 ```
-Pause all processes in a container.
+- Pause all processes in a container.
 ``` bash
 docker pause <container>
 ```
-Resume a paused container.
+- Resume a paused container.
 ``` bash
 docker unpause <container>
 ```
-Rename an existing container.
+- Rename an existing container.
 ``` bash
 docker rename <old-name> <new-name>
 ```
-Block until the container stops and return its exit code.
+- Block until the container stops and return its exit code.
 ``` bash
 docker wait <container>
 ```
-List port mappings for a container.
+- List port mappings for a container.
 ``` bash
 docker port <container>
 ```
-Restart a running container.
+- Restart a running container.
 ``` bash
 docker restart <container>
 ```
-Update resource limits of a running container.
+- Update resource limits of a running container.
 ``` bash
 docker update <container> --memory 500m
 ```
