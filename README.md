@@ -51,10 +51,10 @@ docker build -t mehndi-generator : For building the image
 ```bash
 docker tag mehndi-generator zainabkhan999/mehndi-generator:v1
 ```
-Push the image to Docker Hub
 ```bash 
 docker push zainabkhan999/mehndi-generator:v1 
 ```
+Push the image to Docker Hub
   ![image](https://github.com/user-attachments/assets/7cd9c436-b225-4806-b3fa-cd66f5bfd253)
   
 -  Creating git repo
