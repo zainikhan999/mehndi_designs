@@ -72,7 +72,7 @@ Push the image to Docker Hub
 - List running containers.
   ``` bash
   docker ps
-```
+  ```
 - Stop a running container.
   ``` bash
   docker stop <container>
