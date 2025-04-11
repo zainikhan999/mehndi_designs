@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/a687f008-f782-4f38-a300-6dceb6ae9068)# mehndi_designs
 # 🌸 Floral Mehndi Design Generator
 GoodBye to searching long web pages to select Hina designs , welocme Floral Mehndi Design Generator
 This Streamlit application allows users to generate beautiful Mehndi (Henna) designs tailored to their preferences using Google Gemini's image generation model.
