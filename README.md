@@ -67,10 +67,85 @@ Push the image to Docker Hub
       git remote add origin https://github.com/zainikhan999/goodevening.git
       git push -u origin main
    ```
-- Running a Docker Container
- ```bash
-  docker run -p 8501:8501 zainabkhan999/mehndi-design:v1
-  ```
-![image](https://github.com/user-attachments/assets/82a17039-8ffe-4895-b4cf-58e5a1fb9b66)
 ---
+## Part 2 Docker Containers with commands
+- List running containers.
+  ``` bash
+  docker ps
+```
+- Stop a running container.
+  ``` bash
+  docker stop <container>
+```
+- Remove a stopped container.
+ ```bash
+  docker rm <container>
+  ```
+- Display detailed information about a container.
+ ```bash
+  docker inspect <container>
+  ```
+- Start a stopped container.
+``` bash
+docker start <container>
+```
+- View logs from a container.
+``` bash
+docker logs <container>
+```
+-Show real-time resource usage of containers.
+``` bash
+docker stats
+```
+Run a command inside a running container (e.g., bash shell).
+``` bash
+docker exec -it <container> <command>
+```
+Attach to a running container's terminal.
+```bash
+docker attach <container>
+
+```
+Create a new image from a container's current state.
+``` bash
+docker commit <container> <image-name>
+```
+Copy files/folders between container and host.
+``` bash
+docker cp <container>:<path> <host-path>
+```
+Show processes running inside a container.
+``` bash
+docker top <container>
+```
+Pause all processes in a container.
+``` bash
+docker pause <container>
+```
+Resume a paused container.
+``` bash
+docker unpause <container>
+```
+Rename an existing container.
+``` bash
+docker rename <old-name> <new-name>
+```
+Block until the container stops and return its exit code.
+``` bash
+docker wait <container>
+```
+List port mappings for a container.
+``` bash
+docker port <container>
+```
+Restart a running container.
+``` bash
+docker restart <container>
+```
+Update resource limits of a running container.
+``` bash
+docker update <container> --memory 500m
+```
+![image](https://github.com/user-attachments/assets/82a17039-8ffe-4895-b4cf-58e5a1fb9b66)
+
 
